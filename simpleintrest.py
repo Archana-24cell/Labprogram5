@@ -1,10 +1,8 @@
 import sys
 
-p = input(sys.argv[1])
-
-r = input(sys.argv[2])
-
-t = input(sys.argv[3])
+p = float(sys.argv[1])
+r = float(sys.argv[2])
+t = float(sys.argv[3])
 
 SI = (p*r*t)/100
 
